@@ -14,24 +14,25 @@ b = 7
 
 # Addition
 addition = a + b
-print(f"The addition of {a} and {b} is: {addition}")
+print("The addition of {} and {} is: {}".format(a, b, addition))
 
 # Subtraction
 subtraction = a - b
-print(f"The subtraction of {b} from {a} is: {subtraction}")
+print("The subtraction of {} from {} is: {}".format(b, a, subtraction))
 
 # Multiplication
 multiplication = a * b
-print(f"The multiplication of {a} and {b} is: {multiplication}")
+print("The multiplication of {} and {} is: {}".format(a, b, multiplication))
 
 # Division
 division = a / b
-print(f"The division of {a} by {b} is: {division}")
+print("The division of {} by {} is: {}".format(a, b, division))
 
 # Square root
 sqrt_a = math.sqrt(a)
-print(f"The square root of {a} is: {sqrt_a}")
+print("The square root of {} is: {}".format(a, sqrt_a))
 
 # Power
 power = math.pow(a, b)
-print(f"{a} raised to the power of {b} is: {power}")
+print("{} raised to the power of {} is: {}".format(a, b, power))
+print("{} raised to the power of {} is: {}".format(a, b, power))
